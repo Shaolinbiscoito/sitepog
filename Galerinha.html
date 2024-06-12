@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="baska.css">
+    <title>Melhores jogadores</title>
+
+
+    <title>Trocar Imagem</title>
+    <script>
+        function changeImage() {
+            let img = document.getElementById("myImage");
+            if (img.src.match("dirk.jpg")) {
+                img.src = "vince.jpg";
+            } 
+
+            
+            else {
+                img.src = "harden.jpg";
+            }
+        
+        }
+    </script>
+
+</head>
+<body>
+    <img id="myImage" src="dirk.jpg" style="width: auto ; height: 750px;">
+    <p style="margin-left: 750px; margin-right: 750px;"><button onclick="changeImage()" style="background-color: orange;">Trocar Imagem</button></p>
+    <p style="border: none; background-color: aquamarine;"><a href="baska.html"  id="text4"> Página inicial</a></p>
+</body>
+</html>
+
+
+

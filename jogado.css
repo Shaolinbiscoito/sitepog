@@ -1,0 +1,52 @@
+h1{
+    border-left: 7px solid orangered;
+    border-bottom: 7px solid orangered;
+    border-right: 7px solid orangered;
+    border-radius: 10px;
+    color: blueviolet;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 30px ;
+    background-color: orange;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+
+  }
+
+a{
+    border: 3px solid blueviolet;
+    color:blueviolet;
+    margin: 5px 5px 5px 5px;
+    background-color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+}
+
+img{
+    height: 338px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    text-align:center;
+    margin: 0px 450px 20px 450px;
+    background-color: orange;
+    border: orangered solid 5px;
+    border-radius: 10px;
+}
+ 
+.borda {
+    background-color: rgb(255, 255, 75);
+    margin: 20px 100px 10px 100px;
+}
